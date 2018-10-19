@@ -13,6 +13,9 @@
 		165D8916217A56A20098EFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165D8915217A56A20098EFDF /* Assets.xcassets */; };
 		165D8919217A56A20098EFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165D8917217A56A20098EFDF /* LaunchScreen.storyboard */; };
 		165D8921217A56B40098EFDF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D8920217A56B40098EFDF /* PhotosViewController.swift */; };
+		165D8923217A64ED0098EFDF /* imageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D8922217A64ED0098EFDF /* imageTableViewCell.swift */; };
+		165D8925217A6D470098EFDF /* ImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D8924217A6D470098EFDF /* ImageSelectionViewController.swift */; };
+		165D8927217A6D9D0098EFDF /* SingleFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D8926217A6D9D0098EFDF /* SingleFriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		165D8918217A56A20098EFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165D891A217A56A20098EFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165D8920217A56B40098EFDF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		165D8922217A64ED0098EFDF /* imageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageTableViewCell.swift; sourceTree = "<group>"; };
+		165D8924217A6D470098EFDF /* ImageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionViewController.swift; sourceTree = "<group>"; };
+		165D8926217A6D9D0098EFDF /* SingleFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				165D890B217A56A10098EFDF /* AppDelegate.swift */,
 				165D890F217A56A10098EFDF /* Main.storyboard */,
 				165D8920217A56B40098EFDF /* PhotosViewController.swift */,
+				165D8924217A6D470098EFDF /* ImageSelectionViewController.swift */,
+				165D8926217A6D9D0098EFDF /* SingleFriendViewController.swift */,
+				165D8922217A64ED0098EFDF /* imageTableViewCell.swift */,
 				165D8915217A56A20098EFDF /* Assets.xcassets */,
 				165D8917217A56A20098EFDF /* LaunchScreen.storyboard */,
 				165D891A217A56A20098EFDF /* Info.plist */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				165D8921217A56B40098EFDF /* PhotosViewController.swift in Sources */,
+				165D8925217A6D470098EFDF /* ImageSelectionViewController.swift in Sources */,
+				165D8923217A64ED0098EFDF /* imageTableViewCell.swift in Sources */,
 				165D8914217A56A10098EFDF /* Photos_Core_data.xcdatamodeld in Sources */,
+				165D8927217A6D9D0098EFDF /* SingleFriendViewController.swift in Sources */,
 				165D890C217A56A10098EFDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

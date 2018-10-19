@@ -1,5 +1,5 @@
 //
-//  PhotosViewController.swift
+//  SingleFriendViewController.swift
 //  Photos_Core_data
 //
 //  Created by Anand Kulkarni on 10/19/18.
@@ -8,9 +8,11 @@
 
 import UIKit
 
-class PhotosViewController: UIViewController {
+class SingleFriendViewController: UIViewController {
 
-
+    @IBOutlet weak var firstNameText: UITextField!
+    @IBOutlet weak var lastNameText: UITextField!
+    @IBOutlet weak var contactInfoText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
