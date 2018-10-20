@@ -11,7 +11,6 @@ import UIKit
 class imageTableViewCell: UITableViewCell {
 
 
-    @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var firstName: UILabel!
     @IBOutlet weak var lastName: UILabel!
     @IBOutlet weak var contactInfo: UILabel!
